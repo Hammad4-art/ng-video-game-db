@@ -1,0 +1,19 @@
+<div class="search-container">
+    <button routerLink="/login" class="btn btn-danger mx-2" style="
+    position: absolute;
+    top:50%;
+    right: 10%;
+    transform: translateY(-50%);"
+    >Logout</button>
+    <form class="search-form" #form="ngForm" (ngSubmit)="onSubmit(form)">
+      <span class="logo" routerLink="/">GAMERZHUB</span>
+      <input
+        class="search-input"
+        name="search"
+        ngModel
+        placeholder="Search 500,000+ games"
+      />
+      <button class="search-button">Search</button>
+    </form>
+  </div>
+  

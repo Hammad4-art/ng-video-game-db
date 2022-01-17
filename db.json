@@ -1,0 +1,26 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupusers": [
+    {
+      "username": "Hammad Mahmood",
+      "email": "hammad12@gmail.com",
+      "password": "hammad12@",
+      "id": 1
+    },
+    {
+      "username": "Zainab",
+      "email": "znadeem12@gmail.com",
+      "password": "z27@",
+      "id": 2
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
